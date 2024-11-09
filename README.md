@@ -1,5 +1,5 @@
 This repo contains my exploration into unsupervised learning on a single stream of video data.
-There are a few different threads of ideas (see my notes), but the main one, and the one that motivated me to pursue this is as follows:
+There are a few different threads of ideas (~~see my notes~~ wait, never mind, excluded those from repo), but the main one, and the one that motivated me to pursue this is as follows:
 - Based on what humans can do, it is possible to learn to distinguish objects based on just visual data (okay, maybe there's an "interactivity" component, but forget about that)
 - So, I'm interested in looking at different ways of using neural-network based systems to learn meaningful features from the video data.
 - Even more specifically, the simplest meaningful example I could think of is: it should be possible to mark a region of the first frame of the video to track, then train a neural network to predict where that region is, then as the video plays, it should be able to track the object to some degree. This is implemented in single_frame_no_patches::test_average_multi_run(). It ensembles (by averaging final activation maps) several small models to get a more consistent activation map for the object. The GIF of one particular example is in activation_map_seq.gif.
