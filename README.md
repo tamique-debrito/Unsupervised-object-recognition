@@ -1,4 +1,5 @@
 The goal of this project is to produce a technique that can perform single-shot object recognition from a video (and do so with no pre-built filters or pre-training). So far I have acheived a basic proof-of-concept as demonstrated in the image below (the highlighting seen in this GIF represents the motion of the object that is being tracked):
+
 ![Image](./activation_map_seq.gif)
 
 This repo contains my exploration into unsupervised learning on a single stream of video data.
