@@ -2,6 +2,7 @@ The goal of this project is to produce a technique that can perform single-shot 
 
 ![Image](./activation_map_seq.gif)
 
+Further explanation:
 This repo contains my exploration into unsupervised learning on a single stream of video data.
 There are a few different threads of ideas, but the main one, and the one that motivated me to pursue this is as follows:
 - Based on what humans can do, it is possible to learn to distinguish objects based on just visual data (okay, maybe there's an "interactivity" component, but forget about that)
