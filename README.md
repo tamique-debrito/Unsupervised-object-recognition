@@ -1,6 +1,6 @@
 The goal of this project is to produce a technique that can perform single-shot object recognition from a video (and do so with no pre-built filters or pre-training). So far I have acheived a basic proof-of-concept as demonstrated in the image below (the highlighting seen in this GIF represents the motion of the object that is being tracked):
 
-![colored_displacement_map_varf10](https://github.com/user-attachments/assets/d8b98a52-476b-495a-aac1-36716473e192)
+![colored_displacement_map_varf10](https://github.com/user-attachments/assets/d8b98a52-476b-495a-aac1-36716473e192 | width=400)
 
 
 Further explanation:
