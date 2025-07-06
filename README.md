@@ -1,4 +1,4 @@
-The goal of this project is to produce a technique that can perform single-shot object recognition from a video (and do so with no pre-built filters or pre-training). So far I have acheived a basic proof-of-concept as demonstrated in the image below (the highlighting seen in this GIF represents the motion of the object that is being tracked):
+The goal of this project is to produce a technique that can perform single-shot object recognition from a video (and do so with no pre-built filters or pre-training). So far I have acheived a basic proof-of-concept as demonstrated in the image below (the highlighting seen in this GIF represents the motion of the object that is being tracked. The pixels are individual location proposals shown without post-processing. The color represents whether the proposals have variance under a certain threshold):
 
 ![colored_displacement_map_varf10](https://github.com/user-attachments/assets/d38c890f-07c8-44e4-b17e-2b0f133086c6)
 
